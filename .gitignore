@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+
+# dataset and large generated files
+data/
+outputs/*
+!outputs/cnn_best.keras
+!outputs/norm_stats.npz
